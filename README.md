@@ -3,8 +3,30 @@ Recurrent Neural Network for Non-Iterative Conditional Expectation for Time-Vary
 
 <img src="Stabilized Weighted RNN.png" alt="Model Architecture"  width="800" height="250"/>
 
-We have included all the ipynb files of three models in this directory. The required dependency is listed as the imported packages for each juypter notebook.
 
-The Jupyter notebook contains the code for the model, data preprocessing and data loading, the large scale data reproducing steps and the final causal effect estimation.
+## Overview
 
-The baseline R package method is included in the gfoRmula.
+This repository provides implementations of four models for time-varying treatment effect estimation. Each model is organized in its own directory, and all necessary dependencies are listed within each Jupyter notebook.
+
+Included contents:
+- Code for model development
+- Data loading
+- Reproducible steps for large-scale data
+- Final causal effect estimation and performance metrics calculation
+
+## Directory Structure
+
+- **Example Data Files**: Example datasets for demonstration and reproduction.
+- **RNN_original_model**: Implementation of the original RNN model.
+- **Sequential model**: Sequential modeling approach for time-varying covariates and outcomes.
+- **Stabilized Weighted RNN**: Model integrating stabilized weights to improve robustness against positivity violations.
+- **gfoRmula**: Baseline method using the R package `gfoRmula` for comparison.
+
+## Notes
+
+- Large-scale data files are not included in this repository due to size limitations.
+- The baseline `gfoRmula` method is included as a reference for comparison.
+
+
+
+
