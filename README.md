@@ -7,4 +7,4 @@ We have included all the ipynb files of three models in this directory. The requ
 
 The Jupyter notebook contains the code for the model, data preprocessing and data loading, the large scale data reproducing steps and the final causal effect estimation.
 
-The R code for generating the simulated data is included in the gfoRmula.
+The baseline R package method is included in the gfoRmula.
